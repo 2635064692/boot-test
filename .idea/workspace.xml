@@ -8,10 +8,7 @@
       <change afterPath="$PROJECT_DIR$/../sourceCode-learning/rocketmq" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sourceCode-learning/spring" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../utils" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-test.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -217,6 +214,7 @@
       <workItem from="1593501566721" duration="6737000" />
       <workItem from="1593510777766" duration="713000" />
       <workItem from="1593511780836" duration="208000" />
+      <workItem from="1593512288645" duration="388000" />
     </task>
     <servers />
   </component>
