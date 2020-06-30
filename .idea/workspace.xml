@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da22d873-49e2-4d95-a8ce-2f23d62b6b5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source-code-mytest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sourceCode-learning/SpringBoot-Labs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sourceCode-learning/rocketmq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sourceCode-learning/spring" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/HaiApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/annotation/IdentityCardNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/annotation/NeedSetFiledValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/annotation/NeedSetValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/annotation/impl/IdentityCardNumberValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/annotation/impl/SetFiledValueAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/controller/AbstractController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/dto/CarDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/dto/RspDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/dto/UserBehaviorDataDTO$UserBehaviorDataDTOBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/dto/UserBehaviorDataDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/dto/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/dto/assist/Create.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/dto/assist/Update.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/entity/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/entity/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/entity/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/entity/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/entity/SysUserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/repository/SysUserEntityRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/service/AsyncService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/service/SendService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/service/impl/SendServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/vo/UserVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/component/BeanUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/component/BiFunction$FunctionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/component/BiFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/component/MyBeanFactoryPostProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/constant/Constant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/exception/BizException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/futrue/MyFutureTask$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/futrue/MyFutureTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/futrue/TestFuture.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/utils/Base64Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/utils/BeanCopyUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/utils/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/utils/IdCardValidatorUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/utils/IpUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/utils/RedPackageUtils$RedPackage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/utils/RedPackageUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/utils/RegexUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/utils/SerialNoUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/utils/WordNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/haizhang/hai/HaiApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../utils" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/model/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/model/entity/BaseEntity.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/JAVA/maven-code" />
+        <option name="userSettingsFile" value="D:\JAVA\maven-code\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1e1ukQgdOaqSLMJLMmRwfpF16Yd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$APPLICATION_CONFIG_DIR$/scratches/springboot-test" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.haizhang.hai" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.haizhang.hai.bussiness.controller" />
+      <recent name="com.haizhang.hai.bussiness.model.entity" />
+      <recent name="com.haizhang.hai.constant" />
+      <recent name="com.haizhang.hai.bussiness.vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\.IntelliJIdea2019.2\config\scratches\springboot-test" />
+      <recent name="D:\GIT\spring-boot-test\src\main\java\com\haizhang\hai\bussiness" />
+      <recent name="D:\GIT\spring-boot-test\src\main\java\com\haizhang\hai" />
+      <recent name="D:\GIT\spring-boot-test\src\main\java\com\haizhang\hai\bussiness\model" />
+      <recent name="D:\GIT\spring-boot-test\src\main\java\com\haizhang\hai\bussiness\service" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5555/api/user/update/groups" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;userId&quot;: 1,&#10;  &quot;username&quot;: &quot;demoData&quot;,&#10;  &quot;mobile&quot;: &quot;demoData&quot;,&#10;  &quot;sex&quot;: &quot;demoData&quot;,&#10;  &quot;email&quot;: &quot;demoData&quot;,&#10;  &quot;password&quot;: &quot;demoData&quot;,&#10;  &quot;createTime&quot;: &quot;2020/6/30 17:57&quot;,&#10;  &quot;number&quot;: &quot;demoData&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 8 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 8 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="spring-boot-test" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.user#2">
+    <configuration name="SensitiveWordUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.haizhang.hai.utils.SensitiveWordUtils" />
+      <module name="spring-boot-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.haizhang.hai.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="user#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/springboot-test/user.http" index="2">
+      <method v="2" />
+    </configuration>
+    <configuration name="HaiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.haizhang.hai.HaiApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--REDIS_HOST=localhost --REDIS_PORT=6379 --DB_MASTER_URL=jdbc:mysql://localhost:3306/mybot?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=UTC --DB_MASTER_USER=root --DB_MASTER_PWD=root --DB_SLAVE_URL=jdbc:mysql://localhost:3306/mybot?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=UTC --DB_SLAVE_USER=root --DB_SLAVE_PWD=root --ROCKETMQ_ADDRESSES=127.0.0.1:9876 --AUTH_HOST=localhost:9710 --APP_DATA_PATH=/opt/service/data --TOMCAT_BASE_DIR=/opt/service/tmp --MERCHANT_POWER_GROUPNAME=维护人员权限 --NAMESPACES=maap-dev --HW_NOTIFYSECRET=18351c7ddb5548f64c1153ac3c8b3d4bb63569f7aa5427b1f168347bb1bb626c --REMOTE_SERVER_GRANTTYPE=client_credentials --REMOTE_SERVER_APPID=101080723 --REMOTE_SERVER_CLIENTSECRET=24043e04d9a087b7ade2ecaa826f8471 --eurekaserver.ip=localhost --eurekaserver.port=9709" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SensitiveWordUtils" />
+      <item itemvalue="Spring Boot.HaiApplication" />
+      <item itemvalue="HTTP Request.user#2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.user#2" />
+        <item itemvalue="Application.SensitiveWordUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@62436dc3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da22d873-49e2-4d95-a8ce-2f23d62b6b5a" name="Default Changelist" comment="" />
+      <created>1593501562749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593501562749</updated>
+      <workItem from="1593501566721" duration="6737000" />
+      <workItem from="1593510777766" duration="713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/controller/UserController.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/haizhang/hai/exception/GlobalExceptionHandler.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

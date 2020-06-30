@@ -1,0 +1,82 @@
+server:
+  port: 5555
+  servlet:
+    context-path: /api
+
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  jpa:
+    properties:
+      hibernate:
+        enable_lazy_load_no_trans: true
+      ddl-auto: update
+    show-sql: false
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  application:
+    name: RMService
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  redis:
+    database: 3
+    host: ${REDIS_HOST}
+    port: ${REDIS_PORT}
+    testWhileIdle: true
+    minEvictableIdleTimeMillis: 60000
+    timeBetweenEvictionRunsMillis: 30000
+    numTestsPerEvictionRun: -1
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 1
+
+sharding:
+  jdbc:
+    datasource:
+      names: master,slave0
+      master:
+        type: org.apache.commons.dbcp.BasicDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: ${DB_MASTER_URL}
+        username: ${DB_MASTER_USER}
+        password: ${DB_MASTER_PWD}
+        maxActive: 20
+        validationQuery: SELECT 1
+        testOnBorrow: false
+        timeBetweenEvictionRunsMillis: 300000
+        testWhileIdle: true
+        minEvictableIdleTimeMillis: 1800000
+        initialSize: 5
+        minIdle: 3
+        maxWait: 30000
+      slave0:
+        type: org.apache.commons.dbcp.BasicDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: ${DB_SLAVE_URL}
+        username: ${DB_SLAVE_USER}
+        password: ${DB_SLAVE_PWD}
+        maxActive: 20
+        validationQuery: SELECT 1
+        testOnBorrow: false
+        timeBetweenEvictionRunsMillis: 300000
+        testWhileIdle: true
+        minEvictableIdleTimeMillis: 1800000
+        initialSize: 5
+        minIdle: 3
+        maxWait: 30000
+    config:
+      masterslave:
+        load-balance-algorithm-type: ROUND_ROBIN
+        name: ds_ms
+        master-data-source-name: master
+        slave-data-source-names: slave0
+
+rocketmq:
+  nameServer: 127.0.0.1:9876
+  producer:
+    group: Hai
