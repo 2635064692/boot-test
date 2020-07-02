@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 /**
  * @author admin_z by 2020/6/30
- * @ClassName A
+ * @ClassName
  */
 @Entity
 @Data

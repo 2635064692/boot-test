@@ -9,7 +9,7 @@ import com.haizhang.hai.bussiness.service.SendService;
 import com.haizhang.hai.bussiness.service.UserService;
 import com.haizhang.hai.bussiness.vo.UserVO;
 import com.haizhang.hai.utils.BeanCopyUtils;
-import org.springframework.aop.framework.AopContext;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
@@ -37,7 +37,7 @@ public class UserServiceImpl implements UserService {
         BeanCopyUtils.copy(userDTO, user);
         user = userRepository.save(user);
         System.out.println("User 保存用户成功:" + user);
-        UserService currentProxy = UserService.class.cast(AopContext.currentProxy());
+//        UserService currentProxy = UserService.class.cast(AopContext.currentProxy());
         sendService.senMsg(user);
         sendService.senEmail(user);
 //        int i = 1 / 0;
@@ -68,10 +68,7 @@ public class UserServiceImpl implements UserService {
     @Transactional
     public User updateById(UserDTO userDTO) {
         User user = new User();
-        user.setId(userDTO.getUserId());
-        user.setSex(userDTO.getSex());
-        user.setUsername(userDTO.getUsername());
-        user.setPassword(userDTO.getPassword());
+        BeanUtils.copyProperties(userDTO,user);
         return userRepository.save(user);
     }
 

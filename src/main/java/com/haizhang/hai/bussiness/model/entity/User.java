@@ -2,6 +2,7 @@ package com.haizhang.hai.bussiness.model.entity;
 
 
 import lombok.Data;
+import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
@@ -17,7 +18,7 @@ import java.util.Date;
 @Entity
 @Data
 @EntityListeners(AuditingEntityListener.class)
-@Table(name = "USER")
+@Table(name = "T_USER")
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -54,11 +55,13 @@ public class User implements Serializable {
     /**
      * 创建时间
      */
+    @CreatedDate
     private Date createTime;
 
     /**
      * 更新时间
      */
+    @CreatedDate
     private Date updateTime;
 
 }

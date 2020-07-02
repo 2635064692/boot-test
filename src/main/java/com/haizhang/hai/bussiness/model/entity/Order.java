@@ -1,6 +1,8 @@
 package com.haizhang.hai.bussiness.model.entity;
 
 
+import com.haizhang.hai.annotation.NeedSetValue;
+import com.haizhang.hai.bussiness.model.repository.UserRepository;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -54,7 +56,7 @@ public class Order extends BaseEntity{
     /**
      * 注解标记 AOP 查询和设置 @NeedSetValue
      */
-//    @NeedSetValue(beanClass = UserMapper.class, params = "customerId", method = "selectById", targetFiled = "username")
+    @NeedSetValue(beanClass = UserRepository.class, params = "customerId", method = "selectById", targetFiled = "username")
     private String customerName;
 
 }
