@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.scheduling.annotation.EnableAsync;
 
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+@SpringBootApplication
 @EnableJpaAuditing
 @EnableJpaRepositories(basePackages = {"com.haizhang.hai.bussiness.model.repository.**"})
 @EntityScan(basePackages ={"com.haizhang.hai.bussiness.model.entity.**"})

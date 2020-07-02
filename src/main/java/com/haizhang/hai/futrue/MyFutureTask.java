@@ -1,6 +1,5 @@
 package com.haizhang.hai.futrue;
 
-import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import com.haizhang.hai.bussiness.dto.UserBehaviorDataDTO;
 import com.haizhang.hai.bussiness.service.UserService;
 import lombok.extern.slf4j.Slf4j;
@@ -27,7 +26,7 @@ public class MyFutureTask {
      */
     private static ExecutorService executor = new ThreadPoolExecutor(8, 60,
             0L, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>(1),
-            new ThreadFactoryBuilder().setNameFormat("User_Async_FutureTask-%d").setDaemon(true).build(),
+//            new ThreadFactoryBuilder().setNameFormat("User_Async_FutureTask-%d").setDaemon(true).build(),
             new ThreadPoolExecutor.CallerRunsPolicy());
 
 
