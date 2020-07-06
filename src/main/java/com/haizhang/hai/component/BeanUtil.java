@@ -44,7 +44,12 @@ public class BeanUtil implements ApplicationContextAware {
             }
             field.setAccessible(true);
             Object bean = this.applicationContext.getBean(sv.beanClass());
-            Method method = sv.beanClass().getMethod(sv.method(), clazz.getDeclaredField(sv.params()).getType());
+            Method method = null;
+            try {
+                 method = sv.beanClass().getMethod(sv.method(), clazz.getDeclaredField(sv.params()).getType());
+            }catch (Exception e){
+                 method = sv.beanClass().getDeclaredMethod(sv.method(), clazz.getDeclaredField(sv.params()).getType());
+            }
             Field paramField = clazz.getDeclaredField(sv.params());
             paramField.setAccessible(true);
             Field targetField = null;

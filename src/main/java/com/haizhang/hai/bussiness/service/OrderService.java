@@ -9,7 +9,9 @@ package com.haizhang.hai.bussiness.service;
  * @version v.3.0
  */
 
+import com.haizhang.hai.bussiness.dto.SaveOrderDTO;
 import com.haizhang.hai.bussiness.model.entity.Order;
+import com.haizhang.hai.bussiness.vo.OrderVO;
 
 import java.util.List;
 
@@ -27,7 +29,7 @@ public interface OrderService {
      *
      * @return
      */
-    List<Order> getAllOrder();
+    List<OrderVO> getAllOrder();
 
     /**
      * 查询超时订单(或者即将超时的)
@@ -42,4 +44,6 @@ public interface OrderService {
      * @param dataId
      */
     void updateCloseOverTimeOrder(Long dataId);
+
+    Order saveOrder(SaveOrderDTO saveDTO);
 }

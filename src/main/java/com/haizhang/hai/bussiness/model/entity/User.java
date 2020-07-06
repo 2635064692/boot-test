@@ -2,12 +2,12 @@ package com.haizhang.hai.bussiness.model.entity;
 
 
 import lombok.Data;
-import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.EntityListeners;
+import javax.persistence.Table;
 import java.io.Serializable;
-import java.util.Date;
 
 /**
  * @author LiJing
@@ -19,16 +19,9 @@ import java.util.Date;
 @Data
 @EntityListeners(AuditingEntityListener.class)
 @Table(name = "T_USER")
-public class User implements Serializable {
+public class User extends BaseEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
-
-    /**
-     * 主键id 用户id
-     */
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
     /**
      * 用户名
@@ -52,16 +45,4 @@ public class User implements Serializable {
      * 密码
      */
     private String password;
-    /**
-     * 创建时间
-     */
-    @CreatedDate
-    private Date createTime;
-
-    /**
-     * 更新时间
-     */
-    @CreatedDate
-    private Date updateTime;
-
 }

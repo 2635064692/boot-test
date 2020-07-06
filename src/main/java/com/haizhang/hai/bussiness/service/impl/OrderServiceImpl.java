@@ -1,12 +1,18 @@
 package com.haizhang.hai.bussiness.service.impl;
 
 import com.haizhang.hai.annotation.NeedSetFiledValue;
+import com.haizhang.hai.bussiness.dto.SaveOrderDTO;
 import com.haizhang.hai.bussiness.model.entity.Order;
+import com.haizhang.hai.bussiness.model.repository.OrderRepository;
 import com.haizhang.hai.bussiness.service.OrderService;
+import com.haizhang.hai.bussiness.vo.OrderVO;
+import com.haizhang.hai.utils.UniqueCodeUtils;
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author LiJing
@@ -19,24 +25,19 @@ public class OrderServiceImpl implements OrderService {
 //    @Autowired
 //    private OrderMapper orderMapper;
 
+    @Autowired
+    private OrderRepository orderRepository;
+
     @Override
     @NeedSetFiledValue
-    public List<Order> getAllOrder() {
-//        List<Order> orderList = orderMapper.getAllOrder();
-        List<Order> orderList = new ArrayList<>();
-        Order order1 = new Order();
-        order1.setId(8888L);
-        order1.setName("订单:" + order1.getId());
-        order1.setCustomerId(206);
-        orderList.add(order1);
+    public List<OrderVO> getAllOrder() {
+        List<Order> orders = orderRepository.findAll();
+        return orders.parallelStream().map(item->{
+            OrderVO orderVO = new OrderVO();
+            BeanUtils.copyProperties(item,orderVO);
 
-        Order order2 = new Order();
-        order2.setId(9999L);
-        order2.setName("订单:" + order2.getId());
-        order2.setCustomerId(204);
-        orderList.add(order2);
-
-        return orderList;
+            return orderVO;
+        }).collect(Collectors.toList());
     }
 
     @Override
@@ -47,5 +48,14 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public void updateCloseOverTimeOrder(Long orderId) {
 //        orderMapper.updateCloseOverTimeOrder(orderId);
+    }
+
+    @Override
+    public Order saveOrder(SaveOrderDTO saveDTO) {
+        Order order = new Order();
+        BeanUtils.copyProperties(saveDTO, order);
+        order.setOrderNo(UniqueCodeUtils.generateUniqueCode(4));
+
+       return orderRepository.save(order);
     }
 }

@@ -1,6 +1,7 @@
 package com.haizhang.hai.bussiness.vo;
 
 
+import com.haizhang.hai.annotation.CheckLength;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -24,6 +25,7 @@ public class UserVO implements Serializable {
     /**
      * 用户名
      */
+    @CheckLength(max = 2)
     private String username;
     /**
      * 手机号

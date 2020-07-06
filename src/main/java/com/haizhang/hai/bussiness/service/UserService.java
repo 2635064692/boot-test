@@ -7,8 +7,6 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Optional;
-
 public interface UserService {
 
 
@@ -18,7 +16,7 @@ public interface UserService {
      * @param userId
      * @return
      */
-    Optional<User> selectById(Long userId);
+    User selectById(Long userId);
 
     /**
      * 更新用户

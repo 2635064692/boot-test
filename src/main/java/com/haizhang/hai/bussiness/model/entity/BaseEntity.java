@@ -8,13 +8,15 @@
  */
 package com.haizhang.hai.bussiness.model.entity;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 import lombok.ToString;
 import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
+import javax.persistence.*;
 import java.io.Serializable;
-import java.util.Date;
+import java.sql.Timestamp;
 
 /**
  * @author wanghj
@@ -23,25 +25,29 @@ import java.util.Date;
  * @date 2018年3月22日 下午4:23:39
  */
 
-@Setter
-@Getter
+@Data
+@MappedSuperclass
+@EntityListeners(AuditingEntityListener.class)
 @ToString(callSuper = true)
 public class BaseEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     protected Long id;
 
     /**
      * 创建日期
      */
     @CreatedDate
-    protected Date createDate;
+    protected Timestamp createDate;
 
     /**
      * 更新日期
      */
-    protected Date updateDate;
+    @LastModifiedDate
+    protected Timestamp updateDate;
 
 
 }

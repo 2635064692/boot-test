@@ -1,11 +1,12 @@
-package com.haizhang.hai.bussiness.model.entity;
+package com.haizhang.hai.bussiness.vo;
 
 
+import com.haizhang.hai.annotation.NeedSetValue;
+import com.haizhang.hai.bussiness.service.UserService;
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
 import java.math.BigDecimal;
+import java.util.Date;
 
 /**
  * @author LiJing
@@ -14,9 +15,10 @@ import java.math.BigDecimal;
  * @date 2019/8/9 15:33
  */
 @Data
-@Entity
-@Table(name = "T_ORDER")
-public class Order extends BaseEntity{
+public class OrderVO {
+
+    /** 订单id*/
+    private Long id;
 
     /** 订单编号*/
     private String orderNo;
@@ -46,8 +48,14 @@ public class Order extends BaseEntity{
     private Integer payStatus;
 
     /**支付时间*/
-//    private Timestamp payDate;
-//
-//    /**超时时间*/
-//    private Timestamp overDate;
+    private Date payDate;
+
+    /**超时时间*/
+    private Date overDate;
+
+    /**
+     * 注解标记 AOP 查询和设置 @NeedSetValue
+     */
+    @NeedSetValue(beanClass = UserService.class, params = "customerId", method = "selectById", targetFiled = "username")
+    private String customerName;
 }

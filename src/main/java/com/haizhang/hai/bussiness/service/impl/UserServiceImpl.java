@@ -60,8 +60,9 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public Optional<User> selectById(Long userId) {
-        return userRepository.findById(userId);
+    public User selectById(Long userId) {
+        Optional<User> user = userRepository.findById(userId);
+        return user.orElse(null);
     }
 
     @Override

@@ -24,6 +24,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import java.util.Date;
 import java.util.HashMap;
@@ -68,7 +69,7 @@ public class UserController extends AbstractController {
 
     @GetMapping("/get")
     public RspDTO getUser(Long userId) {
-        Optional<User> user = userService.selectById(userId);
+        Optional<User> user = Optional.ofNullable(userService.selectById(userId));
         if (!user.isPresent()) {
             return new RspDTO<User>().nonAbsent("用户不存在");
         }
@@ -85,7 +86,7 @@ public class UserController extends AbstractController {
      * @return
      */
     @PostMapping("/save/serial")
-    public Object save(@RequestBody UserVO userVO) {
+    public Object save(@RequestBody @Valid UserVO userVO) {
         String mobile = userVO.getMobile();
 
         //手动逐个 参数校验~ 写法

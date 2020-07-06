@@ -2,30 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da22d873-49e2-4d95-a8ce-2f23d62b6b5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/annotation/MethodPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/annotation/impl/MethodPrintAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/annotation/CheckLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/annotation/CheckLengthConstraintValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/dto/SaveOrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/model/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/vo/OrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/utils/LeoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/utils/ListEqualsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/utils/ReflectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/utils/UniqueCodeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_shardingsphere_sharding_core_3_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_shardingsphere_sharding_jdbc_3_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_shardingsphere_sharding_jdbc_spring_boot_starter_3_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_shardingsphere_sharding_jdbc_spring_namespace_3_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_indy_2_4_5.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/HaiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/HaiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/model/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/model/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/model/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/model/entity/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/model/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/model/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/model/entity/SysUserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/model/entity/SysUserEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/model/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/model/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/service/impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/vo/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/component/BeanUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haizhang/hai/component/BeanUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/haizhang/hai/HaiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/haizhang/hai/HaiApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/haizhang/hai/HaiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/HaiApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/entity/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/entity/BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/entity/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/entity/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/entity/Order.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/model/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/vo/UserVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/bussiness/vo/UserVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haizhang/hai/component/BeanUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/component/BeanUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haizhang/hai/futrue/MyFutureTask$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/futrue/MyFutureTask$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/haizhang/hai/futrue/MyFutureTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/haizhang/hai/futrue/MyFutureTask.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/haizhang/hai/HaiApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/haizhang/hai/HaiApplicationTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,33 +115,37 @@
     <property name="add_unversioned_files" value="true&#10;D:/GIT/boot-test/.idea/.gitignore" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/haizhang/hai/annotation" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GIT\boot-test\.idea" />
-      <recent name="D:\GIT\boot-test" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.haizhang.hai" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.haizhang.hai.bussiness.model.repository" />
       <recent name="com.haizhang.hai.bussiness.service.impl" />
       <recent name="com.haizhang.hai.bussiness.controller" />
       <recent name="com.haizhang.hai.bussiness.model.entity" />
       <recent name="com.haizhang.hai.constant" />
-      <recent name="com.haizhang.hai.bussiness.vo" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.haizhang.hai" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GIT\boot-test\src\main\resources" />
+      <recent name="D:\GIT\boot-test\src\main\java\com\haizhang\hai\annotation" />
       <recent name="C:\Users\Administrator\.IntelliJIdea2019.2\config\scratches\springboot-test" />
+      <recent name="D:\GIT\boot-test\src\main\java\com\haizhang\hai\utils" />
+      <recent name="D:\GIT\boot-test\src\main\resources" />
       <recent name="D:\GIT\spring-boot-test\src\main\java\com\haizhang\hai\bussiness" />
-      <recent name="D:\GIT\spring-boot-test\src\main\java\com\haizhang\hai" />
-      <recent name="D:\GIT\spring-boot-test\src\main\java\com\haizhang\hai\bussiness\model" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.haizhang.hai.bussiness.vo" />
+      <recent name="com.haizhang.hai.bussiness.dto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GIT\boot-test\.idea" />
+      <recent name="D:\GIT\boot-test" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -141,7 +168,107 @@
             </list>
           </option>
           <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;username&quot;: &quot;我是中国人我是中国人我是中国人&quot;,&#10;  &quot;mobile&quot;: &quot;15172537217&quot;,&#10;  &quot;sex&quot;: &quot;man&quot;,&#10;  &quot;email&quot;: &quot;2@qq.com&quot;,&#10;  &quot;password&quot;: &quot;demoData&quot;,&#10;  &quot;number&quot;: &quot;421123199802160816&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5555/api/user/save/valid" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;username&quot;: &quot;我是中国人&quot;,&#10;  &quot;mobile&quot;: &quot;15172537217&quot;,&#10;  &quot;sex&quot;: &quot;man&quot;,&#10;  &quot;email&quot;: &quot;2@qq.com&quot;,&#10;  &quot;password&quot;: &quot;demoData&quot;,&#10;  &quot;number&quot;: &quot;421123199802160816&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5555/api/user/save/valid" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;username&quot;: &quot;demoDatasdffffffffffffffffffffffffffffffffffff&quot;,&#10;  &quot;mobile&quot;: &quot;15172537217&quot;,&#10;  &quot;sex&quot;: &quot;man&quot;,&#10;  &quot;email&quot;: &quot;2@qq.com&quot;,&#10;  &quot;password&quot;: &quot;demoData&quot;,&#10;  &quot;number&quot;: &quot;421123199802160816&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5555/api/user/save/serial" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
           <option name="textToSend" value="{&#10;  &quot;username&quot;: &quot;demoData&quot;,&#10;  &quot;mobile&quot;: &quot;15172537217&quot;,&#10;  &quot;sex&quot;: &quot;man&quot;,&#10;  &quot;email&quot;: &quot;2@qq.com&quot;,&#10;  &quot;password&quot;: &quot;demoData&quot;,&#10;  &quot;number&quot;: &quot;421123199802160816&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5555/api/user/save/valid" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;username&quot;: &quot;demoData&quot;,&#10;  &quot;mobile&quot;: &quot;15172537217&quot;,&#10;  &quot;sex&quot;: &quot;man&quot;,&#10;  &quot;email&quot;: &quot;2@qq.com&quot;,&#10;  &quot;password&quot;: &quot;demoData&quot;,&#10;  &quot;number&quot;: &quot;421123199802160816&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5555/api/order/create" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;测试订单&quot;,&#10;  &quot;customerId&quot;: 1,&#10;  &quot;goodsId&quot;: 1,&#10;  &quot;goodsPrice&quot;: 6666,&#10;  &quot;orderAmount&quot;: 6666,&#10;  &quot;status&quot;: 1,&#10;  &quot;payType&quot;: 1,&#10;  &quot;payStatus&quot;: 1&#10;}" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
@@ -231,11 +358,11 @@
     <treeState>
       <expand>
         <path>
-          <item name="Found 8 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 9 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
         <path>
-          <item name="Found 8 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-          <item name="spring-boot-test" type="c588b436:RestServiceStructure$ProjectNode" />
+          <item name="Found 9 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="boot-test" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -258,7 +385,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HaiApplicationTests.contextLoads">
+  <component name="RunManager" selected="HTTP Request.user#2">
     <configuration name="SensitiveWordUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.haizhang.hai.utils.SensitiveWordUtils" />
       <module name="boot-test" />
@@ -271,6 +398,9 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="order#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/springboot-test/order.http" index="2">
+      <method v="2" />
     </configuration>
     <configuration name="user#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/springboot-test/user.http" index="2">
       <method v="2" />
@@ -318,15 +448,17 @@
     <list>
       <item itemvalue="Application.SensitiveWordUtils" />
       <item itemvalue="HTTP Request.user#2" />
+      <item itemvalue="HTTP Request.order#2" />
       <item itemvalue="JUnit.HaiApplicationTests.contextLoads" />
-      <item itemvalue="Spring Boot.HaiApplication" />
       <item itemvalue="JUnit.HaiApplicationTests" />
+      <item itemvalue="Spring Boot.HaiApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HaiApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.HaiApplicationTests" />
         <item itemvalue="HTTP Request.user#2" />
+        <item itemvalue="JUnit.HaiApplicationTests.contextLoads" />
+        <item itemvalue="HTTP Request.order#2" />
+        <item itemvalue="JUnit.HaiApplicationTests" />
         <item itemvalue="Application.SensitiveWordUtils" />
       </list>
     </recent_temporary>
@@ -334,11 +466,12 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
+        <option name="contentProportion" value="0.20984316" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@653bfd9f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@17a5ffe0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -361,8 +494,32 @@
       <workItem from="1593511780836" duration="208000" />
       <workItem from="1593512288645" duration="388000" />
       <workItem from="1593513302984" duration="5006000" />
-      <workItem from="1593658817618" duration="1661000" />
+      <workItem from="1593658817618" duration="9465000" />
+      <workItem from="1593739540930" duration="48000" />
+      <workItem from="1593758677707" duration="2942000" />
     </task>
+    <task id="LOCAL-00001" summary="单元测试整合上传">
+      <created>1593660546539</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593660546539</updated>
+    </task>
+    <task id="LOCAL-00002" summary="jpa 自动创建表">
+      <created>1593661957449</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593661957449</updated>
+    </task>
+    <task id="LOCAL-00003" summary="jpa 自动创建表">
+      <created>1593661986088</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593661986088</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,14 +542,16 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="单元测试整合上传" />
+    <MESSAGE value="jpa 自动创建表" />
+    <option name="LAST_COMMIT_MESSAGE" value="jpa 自动创建表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/controller/UserController.java</url>
-          <line>154</line>
+          <line>155</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -407,7 +566,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/service/impl/UserServiceImpl.java</url>
-          <line>69</line>
+          <line>70</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -419,11 +578,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/service/impl/SendServiceImpl.java</url>
           <line>21</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/service/impl/OrderServiceImpl.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/haizhang/hai/annotation/impl/SetFiledValueAspect.java</url>
@@ -444,6 +598,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/haizhang/hai/component/BeanUtil.java</url>
           <line>44</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/haizhang/hai/component/BeanUtil.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/haizhang/hai/component/BeanUtil.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/haizhang/hai/bussiness/controller/UserController.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/haizhang/hai/annotation/CheckLengthConstraintValidator.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

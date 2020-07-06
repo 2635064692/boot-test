@@ -1,25 +1,16 @@
-package com.haizhang.hai.bussiness.model.entity;
-
+package com.haizhang.hai.bussiness.dto;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
 import java.math.BigDecimal;
+import java.sql.Timestamp;
 
 /**
- * @author LiJing
- * @ClassName: Order
- * @Description: 订单实体
- * @date 2019/8/9 15:33
+ * @author admin_z by 2020/7/2
+ * @ClassName SaveOrderDTO
  */
 @Data
-@Entity
-@Table(name = "T_ORDER")
-public class Order extends BaseEntity{
-
-    /** 订单编号*/
-    private String orderNo;
+public class SaveOrderDTO {
 
     /** 订单名称*/
     private String name;
@@ -46,8 +37,8 @@ public class Order extends BaseEntity{
     private Integer payStatus;
 
     /**支付时间*/
-//    private Timestamp payDate;
-//
-//    /**超时时间*/
-//    private Timestamp overDate;
+    private Timestamp payDate;
+
+    /**超时时间*/
+    private Timestamp overDate;
 }
